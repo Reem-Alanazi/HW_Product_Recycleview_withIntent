@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="109dp"
+            android:layout_height="170dp"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+    // Sorry I had problem here and couldn't continue my work
+
+
+</com.google.android.material.card.MaterialCardView>

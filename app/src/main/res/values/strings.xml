@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Phone Store</string>
+    <string name="product1">Iphone 12 64GB</string>
+    <string name="product2">Samsung Galaxy S21 Ultra</string>
+    <string name="product3">Xiaomi 11T Pro</string>
+    <string name="product4">Huawei Y6p</string>
+    <string name="product5">Samsung Galaxy Z Flip3</string>
+    <string name="product6">Iphone 13</string>
+
+    <string name="price1">4500 SR</string>
+    <string name="price2">4500 SR</string>
+    <string name="price3">2000 SR</string>
+    <string name="price4">500 SR</string>
+    <string name="price5">5000 SR</string>
+    <string name="price6">6000 SR</string>
+
+</resources>
