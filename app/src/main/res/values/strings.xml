@@ -14,4 +14,11 @@
     <string name="price5">5000 SR</string>
     <string name="price6">6000 SR</string>
 
+    <string name="quantityNumber1">5</string>
+    <string name="quantityNumber2">5</string>
+    <string name="quantityNumber3">0</string>
+    <string name="quantityNumber4">0</string>
+    <string name="quantityNumber5">70</string>
+    <string name="quantityNumber6">36</string>
+
 </resources>

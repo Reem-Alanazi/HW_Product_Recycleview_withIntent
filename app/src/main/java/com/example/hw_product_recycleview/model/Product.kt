@@ -7,4 +7,6 @@ import androidx.annotation.StringRes
 
 open class Product (@StringRes val stringResourceId: Int,
                     @DrawableRes val imageResourceId: Int,
-                    @StringRes val priceResourceId : Int)
+                    @StringRes val priceResourceId : Int,
+                    val isVip: Boolean,
+                    @StringRes val NumResourceId : Int)

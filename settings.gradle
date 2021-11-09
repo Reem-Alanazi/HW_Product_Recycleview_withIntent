@@ -4,6 +4,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        mavenCentral()
     }
 }
 rootProject.name = "HW_Product_Recycleview"

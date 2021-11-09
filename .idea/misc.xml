@@ -4,6 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_product1.xml" value="0.67" />
+        <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_product2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_product3.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_product4.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_product5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_product6.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/activity_product_details.xml" value="0.25" />
         <entry key="..\:/Users/Ryam_/AndroidStudioProjects/HW_Product_Recycleview/app/src/main/res/layout/list_item.xml" value="0.25" />
       </map>
     </option>

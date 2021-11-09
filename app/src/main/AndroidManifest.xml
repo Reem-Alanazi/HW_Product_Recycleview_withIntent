@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HW_Product_Recycleview">
         <activity
+            android:name=".product6"
+            android:exported="true" />
+        <activity
+            android:name=".product5"
+            android:exported="true" />
+        <activity
+            android:name=".product4"
+            android:exported="true" />
+        <activity
+            android:name=".product3"
+            android:exported="true" />
+        <activity
+            android:name=".product1"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
