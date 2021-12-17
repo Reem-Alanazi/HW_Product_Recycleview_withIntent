@@ -4,7 +4,6 @@ import com.example.hw_product_recycleview.R
 import com.example.hw_product_recycleview.model.Product
 
 class Datasource {
-
     fun loadProduct(): List<Product> {
         return listOf<Product>(
             Product(R.string.product1,R.drawable.product1,R.string.price1,true,R.string.quantityNumber1),
@@ -14,7 +13,7 @@ class Datasource {
             Product(R.string.product5,R.drawable.product5,R.string.price5,true,R.string.quantityNumber5),
             Product(R.string.product6,R.drawable.product6,R.string.price6,true,R.string.quantityNumber6),
 
-        )
+            )
     }
 }
 
