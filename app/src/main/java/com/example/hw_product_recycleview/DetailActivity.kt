@@ -16,7 +16,7 @@ class DetailActivity : AppCompatActivity() {
         val actionBar : ActionBar? = supportActionBar
 
         actionBar!!.setDisplayHomeAsUpEnabled(true)
-        actionBar!!.setDisplayShowHomeEnabled(true)
+        actionBar.setDisplayShowHomeEnabled(true)
 
         // also set in manifest file ,that which activity to move our another activity
 
@@ -31,7 +31,7 @@ class DetailActivity : AppCompatActivity() {
 
         // set title in another activity
 
-        actionBar.setTitle(dTitle)
+        actionBar.setTitle("Detail Of Phone")
         d_title.text = dTitle
         d_price.text = dPrice
         imageView.setImageResource(dImage)

@@ -68,7 +68,7 @@ class ItemAdapter (private val context: Context,
             intent.putExtra("iPrice", gPrice)
             intent.putExtra("iImageView", gImageView)
 
-            // start another activity
+            // to another activity
 
 
             context.startActivities(arrayOf(intent))

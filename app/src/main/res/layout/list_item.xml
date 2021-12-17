@@ -27,6 +27,8 @@
                 android:layout_height="190dp"
                 android:importantForAccessibility="no"
                 android:scaleType="centerCrop"
+                android:padding="20dp"
+                android:layout_marginStart="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -35,10 +37,11 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/item_price"
+                android:id="@+id/item_title"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
+                android:padding="18dp"
+                android:layout_marginStart="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.592"
@@ -47,11 +50,12 @@
                 app:layout_constraintVertical_bias="0.103" />
 
             <TextView
-                android:id="@+id/item_title"
+                android:id="@+id/item_price"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:padding="10dp"
+                android:padding="18dp"
+                android:layout_marginStart="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.592"
