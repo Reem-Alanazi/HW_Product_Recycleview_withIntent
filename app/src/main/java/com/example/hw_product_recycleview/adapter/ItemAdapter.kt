@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hw_product_recycleview.R
 import com.example.hw_product_recycleview.model.Product
@@ -30,12 +31,30 @@ class ItemAdapter (private val context: Context,
 
         return ItemAdapter.ItemViewHolder(adapterLayout)
     }
-        //method called by the layout manager in order to replace the contents of a list item view.
+        //metho d called by the layout manager in order to replace the contents of a list item view.
     override fun onBindViewHolder(holder: ItemAdapter.ItemViewHolder, position: Int) {
             val item = dataset[position]
             holder.textView.text = context.resources.getString(item.stringResourceId)
             holder.imageView.setImageResource(item.imageResourceId)
             holder.textPrice.text = context.resources.getString(item.priceResourceId)
+
+            holder.itemView.setOnClickListener {
+
+                if (position == 0){
+
+                    Toast.makeText(context,"You clicked on Iphone 12 64GB",Toast.LENGTH_SHORT).show()
+                }
+
+
+
+
+
+            }
+
+
+
+
+
     }
 
       // method needs to return the size of your dataset\list.

@@ -3,9 +3,9 @@ package com.example.hw_product_recycleview
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class product2 : AppCompatActivity() {
+class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_product2)
+        setContentView(R.layout.activity_detail)
     }
 }
