@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hw_product_recycleview.DetailActivity
 import com.example.hw_product_recycleview.R
@@ -40,8 +39,6 @@ class ItemAdapter (private val context: Context,
             phoneImage.setImageResource(item.phoneImage)
             phoneName.text = context.getText(item.phoneName)
             textPrice.text = context.getText(item.textPrice)
-
-
         }
 
         holder.itemView.setOnClickListener {
@@ -70,21 +67,11 @@ class ItemAdapter (private val context: Context,
 
             // to another activity
 
-
             context.startActivities(arrayOf(intent))
-
-
         }
-
-
-
-
-
-
     }
 
     // method needs to return the size of your dataset\list.
     override fun getItemCount(): Int = dataset.size
-
 
 }

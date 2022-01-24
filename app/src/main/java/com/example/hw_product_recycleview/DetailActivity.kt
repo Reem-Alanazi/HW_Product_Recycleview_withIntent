@@ -22,7 +22,6 @@ class DetailActivity : AppCompatActivity() {
 
         // noe get data from putExtra intent
 
-
         var intent = intent
 
         val dTitle = intent.getStringExtra("iTitle")

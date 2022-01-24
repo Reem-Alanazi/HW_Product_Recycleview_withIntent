@@ -6,10 +6,8 @@ import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hw_product_recycleview.adapter.ItemAdapter
 import com.example.hw_product_recycleview.data.Datasource
-import com.example.hw_product_recycleview.model.Product
 
 class MainActivity : AppCompatActivity() {
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,11 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         val myDataset = Datasource().loadProduct()
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
-        recyclerView.adapter = ItemAdapter( this, myDataset)
+        recyclerView.adapter = ItemAdapter(this, myDataset)
         recyclerView.setHasFixedSize(true)
 
-
-         }
-
-
-        }
+    }
+}
